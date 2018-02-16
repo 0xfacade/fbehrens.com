@@ -1,7 +1,6 @@
 ---
 title: "Seitenname"
 date: 2018-02-16T14:07:37+01:00
-draft: true
 ---
 
 # Welcome to my website!

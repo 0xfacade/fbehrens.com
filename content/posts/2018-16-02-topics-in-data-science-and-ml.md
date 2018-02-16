@@ -1,7 +1,6 @@
 ---
 title: "Topics to explore in Machine Learning & Data science"
 date: 2018-02-16T15:05:20+01:00
-draft: true
 ---
 
 Here is a list of some of the topics in machine learning & data science on which
