@@ -29,7 +29,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 prefix = ""
 holder = "Florian M. Behrens"
 startYear = "2018"
-suffix = ""
+suffix = "[Impressum](/impressum/)"
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
