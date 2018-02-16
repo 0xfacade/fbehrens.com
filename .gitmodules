@@ -1,3 +1,6 @@
 [submodule "themes/minimo"]
 	path = themes/minimo
 	url = https://github.com/MunifTanjim/minimo
+[submodule "themes/minimo-fb"]
+	path = themes/minimo-fb
+	url = git@github.com:0xfacade/minimo-fb.git
