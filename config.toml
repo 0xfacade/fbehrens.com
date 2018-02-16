@@ -6,7 +6,7 @@ copyright = ""
 theme = "minimo-fb"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-114327693-1"
 
 Paginate = 5
 preserveTaxonomyNames = true
@@ -47,7 +47,7 @@ sticky = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about"]
+sidebar = ["about", "recent_posts"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -86,11 +86,11 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+#[[menu.main]]
+#name = "Repo"
+#weight = -10
+#identifier = "repository"
+#url = "https://github.com/MunifTanjim/minimo"
 
 [blackfriday]
 hrefTargetBlank = true
