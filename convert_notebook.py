@@ -7,6 +7,7 @@ import shutil
 import glob
 import sys
 from os.path import basename, dirname
+import subprocess
 
 """Convert jupyter notebooks to hugo posts.
 Usage: specify the directory in which you store your jupyter notebooks in
@@ -16,9 +17,17 @@ form 2018-02-20. The complete folder name will be used as the slug of
 the post. Set OUTPUT_DIR to the directory in content where you wish to
 post your content to.
 """
-
+BASE_DIR = "/home/ocius/Repos/fbehrens.com/"
 SEARCH_DIR = "notebooks/"
 OUTPUT_DIR = "content/posts/"
+
+os.chdir(BASE_DIR)
+try:
+	subprocess.run('test -z "$(git status --porcelain)"', shell=True, check=True)
+except:
+	print("The repository is not clean. Commit your changes before you run this script.")	
+	sys.exit(1)
+
 
 if len(sys.argv) == 2:
     to_render = sys.argv[1]
